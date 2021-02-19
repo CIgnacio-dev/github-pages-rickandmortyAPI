@@ -15,7 +15,7 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: CIgnacio-dev/github-pages-rickandmortyAPI@releases/v3
+        uses: CIgnacio-dev/github-pages-rickandmortyAPI
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
